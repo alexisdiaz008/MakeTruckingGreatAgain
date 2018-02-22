@@ -37,6 +37,19 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
+  gem 'rspec-rails', '~> 3.7'
+  gem 'selenium-webdriver'
+  gem 'capybara-selenium'
+  gem 'chromedriver-helper'
+  gem 'capybara'
+  gem 'guard'
+  gem 'factory_bot'
+  gem 'database_cleaner'
+  gem 'launchy'
+
+  gem 'faker'
+  gem 'better_errors' #Better error page for Rack apps
+  gem 'binding_of_caller' #Allows access to bindings arbitrarily far up the call stack, not limited to just the immediate caller.
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
 end
