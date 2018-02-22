@@ -46,7 +46,7 @@ group :development, :test do
   gem 'factory_bot'
   gem 'database_cleaner'
   gem 'launchy'
-
+  gem 'rails-controller-testing'
   gem 'faker'
   gem 'better_errors' #Better error page for Rack apps
   gem 'binding_of_caller' #Allows access to bindings arbitrarily far up the call stack, not limited to just the immediate caller.

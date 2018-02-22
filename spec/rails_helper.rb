@@ -67,7 +67,7 @@ RSpec.configure do |config|
   
   config.after do |example|
     if example.metadata[:type] == :feature #and example.exception.present?
-      save_and_open_screenshot
+      # save_and_open_screenshot
       # takes screenshot of each feature test
     end
   end
