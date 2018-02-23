@@ -14,3 +14,9 @@
 #  $ ln -s config/Guardfile .
 #
 # and, you'll have to watch "config/Guardfile" instead of "Guardfile"
+
+guard 'rspec' do
+  watch('spec/spec_helper.rb') { "spec" }
+  # Rails example
+  watch('spec/spec_helper.rb')                       { "spec" }
+end
