@@ -15,7 +15,33 @@
  */
 
 
+/*PLACEHOLDER*/
+div.temp-text{
+	color:white;
+}
+.temp-text {
+	margin: 5em 0 5em 0;
+	text-align: center;
+	font-size: 2em;
+	font-family: monospace;
+	opacity: .5;
+}
+.american-flag-gif {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 29em;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.placeholder-header {
+	width: 100%;
+}
 
+html,body {
+	position: relative;
+	height: 67em
+}
 
 /*HEADER*/
 .header {
@@ -23,6 +49,7 @@
 	background-color: #ce272d;
 	padding: 3em 0 4em 0;
 }
+
 /*FOOTER*/
 .footer a.social-position {
   margin: 0;
